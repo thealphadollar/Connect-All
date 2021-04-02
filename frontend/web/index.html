@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>ConnectAll - Enabling the disabled</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<link rel="stylesheet" href="assets/css/overlay.css" />
+	</head>
+	<body class="landing is-preload">
+
+		<!-- The overlay -->
+		<div id="myNav" class="overlay">
+
+		  <!-- Button to close the overlay navigation -->
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+		  <!-- Overlay content -->
+		  <div class="overlay-content">
+		  	<div id="def1" hidden="true">
+		  		<h3>Sign Language to Text and More</h3>
+		  		<p> Sign language gives voice to the mute and is the sound for the deaf. <br> Using deep neural networks, we convert sign language to text, <br> aiding those unable to comprehend sign language. <br> Text-to-sign-language service by converting frames to a gif of pictures indicating signs. <br>  Tensorflow, Keras machine learning libraries were used for this.</p>
+			  </div>
+		  	<div id="def2" hidden="true">
+		  		<h3>IM for all</h3>
+		  		<p> Real time lag-free chat is made possible by hacks at socket level. <br> To aid the specially-abled, speech-to-text and text-to-speech is also used on the fly. <br> Technology stack used for this is socket.io, google cloud speech API. </p>
+		  	</div>
+		  	<div id="def3" hidden="true">
+		  		<h3>Narration</h3>
+		  		<p> The workflow for a seamless narration of books begins  <br> by obtaining text using combination of pdf-parsing and OCR. <br> The narration audios generated for each page is stitched together. <br> The technology stack consists of Azure services for OCR and Audio. <br> Apache Tika and PyPDF2 is used for parsing pdfs. </p>
+		  	</div>
+		  	<div id="def4" hidden="true">
+		  		<h3>Note Taking</h3>
+		  		<p> The workflow starts with image - preprocessing and <br> identification of skewedness and inversion of text. <br> The text is extracted along with exact position and font size. <br> The text is then intelligently parsed for clubbing various parts of the note <br> under a heading / sub-heading or bullets and numbering. <br> It then appropriately narrates the various sections of the note. <br> The technology stack consists of Azure Vision service, OpenCV and Azure Speech service.</p>
+		  	</div>
+		    <br>
+		    <a href="javascript:void(0)" onclick="closeNav()">BACK</a>
+		  </div>
+
+		</div>
+		
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Connect All</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="sign.html">Sign-Speech-Text</a></li>
+											<li><a href="im.html">IM-4-All</a></li>
+											<li><a href="narration.html">BookBub</a></li>
+											<li><a href="notes.html">Spec-Acads</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>Connect All</h2>
+							<!-- <img src="images/logo.png" /> -->
+							<br>
+							<br>
+							<br>
+							<p>Enabling The Differently-Abled<br />
+							Blurring Our Differences<br /></p>
+							<br>
+							<br>	
+							<ul class="actions special">
+								<li><a href="#one" class="button primary scrolly">Empower!</a></li>
+							</ul>
+						</div>
+<!-- 						<a href="#one" class="more scrolly">MORE</a> -->
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special" style="height: 100vh;">
+						<div class="inner">
+							<header class="major">
+								<h2>Why is communication limited?...<br />
+								Why are phones biased!</h2>
+								<br><br>
+								<p>technology shall empower EVERYONE to live their best<br />
+								</p>
+							</header>
+							<br>
+							<ul class="icons major">
+								<li><span class="icon fa-eye-slash	major style1"><span class="label">Lorem</span></span></li>
+								<li><span class="icon fa-user major style2"><span class="label">Ipsum</span></span></li>
+								<li><span class="icon solid fa-assistive-listening-systems major style3"><span class="label">Dolor</span></span></li>
+							</ul>
+						</div>
+						<br><br><br>
+						<h3><a href="#two" class="more scrolly">How?</a></h3>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/img01.jpg" alt="" /></div><div class="content">
+								<h2>Sign-Speech-Text</h2>
+								<p>Should one be left out of thrilling speeches, important announcements and more; all because they can't hear! We want them to enjoy, be able to talk with us and vice versa... Don't we?</p>
+								<ul class="actions">
+										<li><a href="sign.html" class="button primary">YES!</a></li>
+										<li><a href="https://494c0b1d.ngrok.io/sign/video" class="button primary">I want to "talk"</a></li>
+										<li><a onclick="openNav(1)" class="button">Is It Possible?</a></li>
+								</ul>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/img05.jpg" alt="" /></div><div class="content">
+								<h2>IM-4-All<br />
+								</h2>
+								<p>Decade back instant messaging came but still 0.0% of the implementations are inclusive of the specially-abled! Shouldn't it be 4 all? Should not they be able to spam those groups with "Good Morning" texts?</p>
+								<ul class="actions">
+										<li><a href="im.html" class="button primary">YEAH!</a></li>
+										<li><a onclick="openNav(2)" class="button">Not Possible?</a></li>
+								</ul>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/img02.jpg" alt="" /></div><div class="content">
+								<h2>BookBub<br />
+								</h2>
+								<p>Nobody... we mean NOBODY should ever have to choose between their eye sight and love for books. Books can cure the highest degree of pain and make blind see the most scenic of sights: shall we see one now?</p>
+								<ul class="actions">
+										<li><a href="narration.html" class="button primary">DEFINITELY!</a></li>
+										<li><a onclick="openNav(3)" class="button">But how?</a></li>
+								</ul>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/img04.jpg" alt="" /></div><div class="content">
+								<h2>Spec-Acads</h2>
+								<p>Can't hear the lecture but cannot use phone to see sign? You wanted notes but nobody bothered to write well, and on top have a sight-problem? We all know how uncooperative people [at advantage] can be! Don't you want better ways to cope with disadvantages?</p>
+								<ul class="actions">
+										<li><a href="notes.html" class="button primary">SAVE ME!</a></li>
+										<li><a onclick="openNav(4)" class="button">Can I be saved?</a></li>
+								</ul>
+							</div>
+						</section>
+					</section>
+
+				
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="https://twitter.com/thealphadollar_" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/thealphadollar" class="icon brands fa-github"><span class="label">Facebook</span></a></li>
+							<li><a href="shivam.cs.iit.kgp@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; 4 force</li><li> 2021 <a href="http://www.iitkgp.ac.in/">IIT KGP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
