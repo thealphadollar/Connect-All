@@ -2,8 +2,7 @@
 
 Connect All is an application developed to help the disabled communicate and live life normally. This was developed as a term project for ET60029 (TECHNOLOGY FOR SPECIAL NEEDS EDUCATION) and is an umbrella service for multiple aids. 
 
-You may use this app in 3 ways -
-- Deployed with zeit - http://web.jvank.now.sh . You may use this app to access all facilities.
+Demo at https://thealphadollar.me/T4SNE-Connnect-All/. You may use this website to access all facilities.
 
 ## Sign Language to Text and more ...
 
@@ -33,7 +32,7 @@ It then appropriately narrates the various sections of the note. The technology 
 
 ## Backend
 
-To run the backend
+To run the backend.
 
 ```shell
 cd /backend
@@ -42,13 +41,14 @@ python3 manage.py run
 ```
 ## Frontend
 
-To deploy the frontend on zeit
+We have deployed frontend using Github Pages.
+
+## Run Im4All
+
+Run the instant messenger for all.
 
 ```shell
-cd /docs/web
-npm i -g now    #intall now cli
-now login
-now
+cd /im4all
+pipenv shell --three
+python3 server.py
 ```
-
-Open the respective link to view the rest API and test it.
